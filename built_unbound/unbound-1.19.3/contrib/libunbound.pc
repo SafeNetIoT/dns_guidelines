@@ -1,0 +1,13 @@
+prefix=/usr/local
+exec_prefix=/usr/local
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: unbound
+Description: Library with validating, recursive, and caching DNS resolver
+URL: http://www.unbound.net
+Version: 1.19.3
+Requires.private: python3   
+Libs: -L${libdir} -lunbound
+Libs.private: -lssl -L/usr/lib/python3.11/config-3.11-aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -lpython3.11 -ldl  -lm  -lcrypto
+Cflags: -I${includedir}

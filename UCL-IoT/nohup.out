@@ -1,0 +1,41 @@
+/home/tribe/mabhishe/myspace/anaconda3/lib/python3.9/site-packages/pandas/core/computation/expressions.py:21: UserWarning: Pandas requires version '2.8.4' or newer of 'numexpr' (version '2.8.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+/home/tribe/mabhishe/myspace/anaconda3/lib/python3.9/site-packages/pandas/core/arrays/masked.py:60: UserWarning: Pandas requires version '1.3.6' or newer of 'bottleneck' (version '1.3.4' currently installed).
+  from pandas.core import (
+✅ Dataset loaded from pickle at output_dataset.pkl
+            Experiment Name  ...                                        Packet JSON
+0  Experiment_1_A_192_0_2_1  ...  {"_index": "packets-2025-05-01", "_type": "pca...
+1  Experiment_1_A_192_0_2_1  ...  {"_index": "packets-2025-05-01", "_type": "pca...
+2  Experiment_1_A_192_0_2_1  ...  {"_index": "packets-2025-05-01", "_type": "pca...
+3  Experiment_1_A_192_0_2_1  ...  {"_index": "packets-2025-05-01", "_type": "pca...
+4  Experiment_1_A_192_0_2_1  ...  {"_index": "packets-2025-05-01", "_type": "pca...
+
+[5 rows x 3 columns]
+Total experiments found: 13
+⚠ Skipping Experiment_1_A_192_0_2_1 — results already exist.
+⚠ Skipping Experiment_1_ttl_0 — results already exist.
+⚠ Skipping Experiment_1_ttl_01 — results already exist.
+⚠ Skipping Experiment_1_ttl_01000000000 — results already exist.
+⚠ Skipping Experiment_1_ttl_0_1 — results already exist.
+⚠ Skipping Experiment_24 — results already exist.
+⚠ Skipping Experiment_25_0_New — results already exist.
+⚠ Skipping Experiment_25_512_New — results already exist.
+⚠ Skipping Experiment_26_100_False_New — results already exist.
+⚠ Skipping Experiment_26_1_False_New — results already exist.
+
+Experiments to analyze: 3 (skipping 10)
+Analyzing Experiments:   0%|          | 0/3 [00:00<?, ?it/s]/data/abhi/DNS_priv_sec/UCL-IoT/Analyze-DNS-IMC.py:210: UserWarning: Tight layout not applied. The bottom and top margins cannot be made large enough to accommodate all Axes decorations.
+  plt.tight_layout()
+/data/abhi/DNS_priv_sec/UCL-IoT/Analyze-DNS-IMC.py:210: UserWarning: Tight layout not applied. The bottom and top margins cannot be made large enough to accommodate all Axes decorations.
+  plt.tight_layout()
+/data/abhi/DNS_priv_sec/UCL-IoT/Analyze-DNS-IMC.py:210: UserWarning: Tight layout not applied. The bottom and top margins cannot be made large enough to accommodate all Axes decorations.
+  plt.tight_layout()
+/data/abhi/DNS_priv_sec/UCL-IoT/Analyze-DNS-IMC.py:269: UserWarning: Tight layout not applied. The left and right margins cannot be made large enough to accommodate all Axes decorations.
+  plt.tight_layout()
+Analyzing Experiments:  33%|███▎      | 1/3 [44:54:04<89:48:09, 161644.81s/it]/data/abhi/DNS_priv_sec/UCL-IoT/Analyze-DNS-IMC.py:269: UserWarning: Tight layout not applied. The left and right margins cannot be made large enough to accommodate all Axes decorations.
+  plt.tight_layout()
+Analyzing Experiments:  67%|██████▋   | 2/3 [81:03:37<39:45:32, 143132.08s/it]Analyzing Experiments: 100%|██████████| 3/3 [90:42:07<00:00, 93624.09s/it]    Analyzing Experiments: 100%|██████████| 3/3 [90:42:07<00:00, 108842.54s/it]
+✅ Completed analysis for Experiment_1_CNAME_alias
+✅ Completed analysis for Experiment_1_AAAA_2001_0db8_1
+⚠ Error during analysis: A process in the process pool was terminated abruptly while the future was running or pending.
+✅ All experiment analyses completed.
